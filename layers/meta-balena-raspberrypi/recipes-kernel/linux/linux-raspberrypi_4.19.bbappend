@@ -158,3 +158,11 @@ RESIN_CONFIGS[sd8787_pwrseq_driver] = " \
 RESIN_CONFIGS_DEPS[sd8787_pwrseq_driver] = " \
     CONFIG_OF=y \
 "
+
+RESIN_CONFIGS_append = " iio_sensors"
+
+RESIN_CONFIGS[iio_sensors] = " \
+    CONFIG_SENSIRION_SGP30=y \
+    CONFIG_MMA8452=y \
+    CONFIG_BME680=y \
+"
