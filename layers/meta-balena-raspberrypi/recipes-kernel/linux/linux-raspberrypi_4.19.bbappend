@@ -165,4 +165,5 @@ RESIN_CONFIGS[iio_sensors] = " \
     CONFIG_SENSIRION_SGP30=y \
     CONFIG_MMA8452=y \
     CONFIG_BME680=y \
+    CONFIG_TI_ADS1015=y \
 "
