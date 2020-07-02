@@ -162,7 +162,10 @@ RESIN_CONFIGS_DEPS[sd8787_pwrseq_driver] = " \
 RESIN_CONFIGS_append = " iio_sensors"
 
 RESIN_CONFIGS[iio_sensors] = " \
-    CONFIG_BME680=y \
-    CONFIG_TI_ADS1015=y \
-    CONFIG_TMP006=y \
+    CONFIG_BME680=m \
+    CONFIG_TI_ADS1015=m \
+    CONFIG_TMP006=m \
+    CONFIG_TCS3472=m \
+    CONFIG_ LTR501=m \
+    CONFIG_BMP280=m \
 "
